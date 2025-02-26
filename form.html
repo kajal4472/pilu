@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+  <style>
+    .form-box {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 500px;
+      margin: 40px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body background="black">
+    <h1 style="color=rgb(128, 0, 41)">Student Registration Form</h1>
+  <form action="" method="post" style="text-align=center">
+    <label for="Name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required="50%">
+    <br>    
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob" required>
+    <br>
+    <label for="Address">Your Address:</label><br>
+    <input type="address" id="Address" name="address" required>
+    <br>
+    <label for="Contact">Your Contact:</label><br>
+    <input type="contact" id="Contact" name="Contact" maxlength="10" pattern="[0-9]{10}" required>
+    <br>
+    <label for="Name">Pin Code:</label><br>
+    <input type="text" id="Pin Code" name="Pin Code" required>
+    <br>
+    <h3 style="color=hwb(188 0% 50%)">City</h3>
+    <select id="interest" name="interest">
+      <label>
+        <option value="">Select Your City</option>
+      </label>
+      <label>
+        <option value="mumbai">Mumbai</option>
+      </label>
+      <label>
+        <option value="nagpur">Nagpur</option>
+      </label>
+      <label>
+        <option value="ahilyanagar">Ahilyanagar</option>
+      </label>
+      <label>
+        <option value="nashik">Nashik</option>
+      </label>
+      <label>
+        <option value="kolhapur">Kolhapur</option>
+      </label>
+      <label>
+        <option value="sambhajinagar">Sambhajinagar</option>
+      </label>
+      <label>
+        <option value="beed">Beed</option>
+      </label>
+      <label>
+        <option value="raigad">Raigad</option>
+      </label>
+      <label>
+        <otipon value="jalna">Jalna</option>
+      </label>
+      <label>
+        <option value="other">Other</option>
+      </label>
+    </select>
+    
+    <br>
+    <h3 style="color:rgb(128, 0, 41)">Gender</h3>
+    <input type="radio"> Female <br>
+    <input type="radio"> Male <br><br>
+    Password<input type="password"><br>
+    <h3 style="color:#007580">Field Of Interest</h3>
+    <select id="it-education" name="it-education">
+      <label>
+        <option value="" style="text-align:center; color:rgb(128, 0, 41)">Select Education</option>
+      </label>
+      <label>
+        <option value="B.Tech in Computer Science">B.Tech in Computer Science</option>
+      </label>
+      <label>
+        <option value="B.Tech in Information Technology">B.Tech in Information Technology</option>
+        </lebel>
+        <label>
+          <option value="M.Tech in Computer Science">M.Tech in Computer Science</option>
+        </label>
+        <label>
+          <option value="MCA">MCA</option>
+        </label>
+        <label>
+          <option value="BCA">BCA</option>
+        </label>
+        <label>
+          <option value="BCS">BCS</option>
+        </label>
+        <label>
+          <option value="Diploma in Computer Science">Diploma in Computer Science</option>
+        </label>
+    </select>
+    <br><br>
+    <button type="submit" color="green" style="text-align:center; color:rgb(128, 0, 41)">Submit</button>
+      </form>
+</body>
+</html>
